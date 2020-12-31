@@ -43,6 +43,7 @@ class DashboardRoute extends Component {
 
         <h3>Words to practice</h3>
 
+        <div className='words_container'>
         {this.state.words.map((word) => {
           return (
             <li key={word.original}>
@@ -52,6 +53,7 @@ class DashboardRoute extends Component {
             </li>
           );
         })}
+        </div>
       </section>
     );
   }
