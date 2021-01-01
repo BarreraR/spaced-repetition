@@ -16,7 +16,7 @@ export default class Result extends Component {
         </main> 
         <main className='DisplayFeedback'>
           <p>
-            The correct translation for {word} was {data.answer} and you chose {guess}!
+            The correct translation for {word} was {data.answer} and you chose {guess.toLowerCase()}!
           </p>
         </main>
       </>
