@@ -18,7 +18,6 @@ class DashboardRoute extends Component {
         },
       });
       const data = await response.json();
-      console.log(data);
       this.setState({
         language: data.language,
         words: data.words,
