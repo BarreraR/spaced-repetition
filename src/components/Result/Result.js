@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 export default class Result extends Component {
   render(){
     const {data, word, guess } = this.props
-    console.log(data)
     return(
       <>
         {
